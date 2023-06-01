@@ -1,0 +1,2771 @@
+{
+    "Yayla Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Yoğurt",
+            "Sıvıyağ",
+            "Pirinç",
+            "Tuz",
+            "Nane",
+            "Yumurta",
+            "Un",
+            "Limon"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Etli Bezelye": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Bezelye",
+            "soğan",
+            "Domates",
+            "Çarliston Biber",
+            "Sıvıyağ",
+            "Salça",
+            "Tuz"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Etsiz Bezelye": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Bezelye",
+            "soğan",
+            "Domates",
+            "Çarliston Biber",
+            "Sıvıyağ",
+            "Salça",
+            "Tuz"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Melek Pilavı": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Pirinç",
+            "Tuz",
+            "Sıvıyağ",
+            "Tel Şehriye"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Bulgur Pilavı": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Bulgur",
+            "Sıvıyağ",
+            "Soğan",
+            "Tuz",
+            "Salça"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Salata": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Göbek Marul",
+            "Havuç",
+            "Kırmızı Lahana",
+            "Maydandoz",
+            "Zeytinyağı",
+            "Limon",
+            "Tuz"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Soda": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Dondurma": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Elvankız Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Kırmızı Mercimek",
+            "Pirinç",
+            "Havuç",
+            "Un",
+            "Sıvıyağ",
+            "Tuz",
+            "Pulbiber",
+            "Karabiber",
+            "Maydanoz"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Rosto Köfte": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Kıyma",
+            "Ekmek",
+            "soğan",
+            "Maydanoz",
+            "Tuz",
+            "Karabiber",
+            "Kimyon",
+            "Domates",
+            "Sıvıyağ",
+            "Salça",
+            "Un",
+            "Çarliston Biber",
+            "Yumurta",
+            "Patates",
+            "Süt",
+            "Kaşar"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Harput Köfte": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Bulgur",
+            "Sarımsak",
+            "Soğan",
+            "Salça",
+            "Un",
+            "Yağ",
+            "Reyhan",
+            "Domates"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Sebzeli Pirinç Pilavı": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "pirinç",
+            "Sıvıyağ",
+            "Tuz",
+            "Bezelye",
+            "Havuç"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Erişte": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Erişte Makarna",
+            "Sıvıyağ",
+            "Tuz",
+            "Nane",
+            "Pulbiber",
+            "Kırmızı Şerit Biber"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Ayran": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Yoğurt",
+            "Su"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Meyve": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Mantar Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Mantar",
+            "Un",
+            "Limon",
+            "Sıvıyağ",
+            "Tuz",
+            "Sirke"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Speciyal But + Fırın Patates": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Erişteli Yeşil Mercimek Yemeği": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Domatesli Makarna": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Makarna",
+            "Sıvıyağ",
+            "Tuz",
+            "Karabiber",
+            "Domates"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Pirinç Pilavı": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Pirinç",
+            "Tuz",
+            "Ayçiçek Yağı"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Tulumba Tatlısı": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Ezogelin Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Kırmızı Mercimek",
+            "Pirinç",
+            "Bulgur",
+            "Şehriye",
+            "Nane",
+            "Maydanoz",
+            "Un",
+            "Tuz",
+            "Karabiber",
+            "Sıvıyağ",
+            "Salça",
+            "soğan",
+            "Pulbiber",
+            "Sarımsak"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Etli Taze Fasulye": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Taze Fasulye",
+            "Soğan",
+            "Domates",
+            "Çarliston Biber",
+            "Sıvıyağ",
+            "Salça",
+            "Tuz"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Zy. Taze Fasulye": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Cacık": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Yoğurt",
+            "Salatalık",
+            "Kuru Nane",
+            "Dere Otu",
+            "Zeytinyağ",
+            "Tuz"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Köy Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Erişte",
+            "Salça",
+            "Tuz",
+            "Un",
+            "Pulbiber",
+            "Limon adet",
+            "Nane",
+            "Sıvıyağ"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Pizza": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Falafel": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Nohut",
+            "Un",
+            "Sıvıyağ",
+            "Sarımsak",
+            "Tuz",
+            "Yoğurt  ( isteğe göre )",
+            "Nane",
+            "Dereotu"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Soğan Halkası": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Zy. Orbit Fasulye": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Mozaik Pasta": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Petibör Biküvi",
+            "Süt",
+            "Şeker",
+            "Kakao",
+            "Margarin"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Gazoz": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Antep Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Kırmızı Mercimek",
+            "Salça",
+            "Un",
+            "Tuz",
+            "Pulbiber",
+            "Sıvıyağ"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Etli Güveç": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Patates",
+            "Kabak",
+            "Patlıcan",
+            "Domates",
+            "Taze Fasulye",
+            "Sıvıyağ",
+            "Sarımsak",
+            "Tuz",
+            "soğan"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Sebze Güveç": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "soğan",
+            "Domates",
+            "Patates",
+            "Salça",
+            "Tuz",
+            "Patlıcan",
+            "Kabak",
+            "Çarliston Biber",
+            "Havuç",
+            "Pulbiber",
+            "Karabiber",
+            "Sıvıyağ",
+            "Bezelye"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Mahluta Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Kırmızı Mercimek",
+            "Un",
+            "Sıvıyağ",
+            "Kimyon",
+            "Tuz",
+            "Soğan"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Etli Karışık Dolma": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Dolmalık Biber",
+            "Kuru Patlıcan",
+            "Sıvıyağ",
+            "Domates",
+            "Salça",
+            "Tuz",
+            "Pirinç",
+            "Soğan",
+            "Karabiber",
+            "Nane",
+            "Dereotu",
+            "Maydanoz",
+            "Taze Nane"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Karışık Dolma": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Soslu Makarna": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Makarna",
+            "Tuz",
+            "Domates",
+            "Salça",
+            "Karabiber",
+            "Maydanoz",
+            "Soğan",
+            "Karabiber"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Su Böreği": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Un",
+            "Tuz",
+            "Sıvıyağ",
+            "Yumurta 15",
+            "Beyaz Peynir",
+            "Maydanoz",
+            "Tereyağı",
+            "Süt"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Çoban Salata": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Domates",
+            "Salatalık",
+            "Çarliston Biber",
+            "Tuz",
+            "Limon",
+            "Zeytinyağı"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Limonata": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Şehriye Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Domates",
+            "Tel Şehriye",
+            "Maydanoz",
+            "Tuz",
+            "Ayçiçek Yağı",
+            "Çarliston Biber",
+            "Karabiber",
+            "Limon",
+            "Un",
+            "Salça"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Akçaabat Köfte": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "soğan",
+            "Ekmek",
+            "Maydanoz",
+            "Sıvıyağ",
+            "Yumurta",
+            "Tuz",
+            "Sarımsak",
+            "Patates"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Patates Yemeği": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Patates",
+            "Sıvıyağ",
+            "Kuru Soğan",
+            "Domates",
+            "Çarliston Biber",
+            "Pulbiber",
+            "Biber",
+            "Tuz",
+            "Sarımsak",
+            "Kırmızı Şerit Biber"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Makarna": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Makarna",
+            "Sıvıyağ",
+            "Tuz"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Kazandibi": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Süt",
+            "Su",
+            "Şeker",
+            "Pirinç Unu",
+            "Mısır Nişastası",
+            "Tavuk Göğüs Eti",
+            "Tuz"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Süzme Mercimek Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Kırmızı Mercimek",
+            "Un",
+            "soğan",
+            "Tuz",
+            "Karabiber",
+            "Sıvıyağ"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Etli Nohut": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Nohut",
+            "soğan",
+            "Salça",
+            "Tuz",
+            "Ayçiçek Yağı",
+            "."
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Etsiz Nohut": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Nohut",
+            "soğan",
+            "Salça",
+            "Tuz",
+            "Sıvıyağ",
+            "Domates",
+            "Çarliston Biber",
+            "Pulbiber"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Turşu": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Karışık Turşu"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Baklava": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Macar Gulaş": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Havuç",
+            "Soğan",
+            "Salça",
+            "Sıvıyağ",
+            "Un",
+            "Patates",
+            "Tuz"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Kabak Yemeği": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Kabak",
+            "Sıvıyağ",
+            "Havuç",
+            "Patates",
+            "Soğan",
+            "Salça",
+            "Sarımsak",
+            "Tuz",
+            "Toz Şeker",
+            "Limon",
+            "Maydanoz"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Kuskus Makarna": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Kuskus",
+            "Salça",
+            "Tuz",
+            "Pulbiber",
+            "Domates",
+            "Çarliston Biber",
+            "Maydanoz"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Domates Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Domates",
+            "Salça",
+            "Sıvıyağ",
+            "Tuz",
+            "Un"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Piliç Emense": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Tavuk Eti",
+            "Havuç",
+            "Patates",
+            "Kornişon Turşu",
+            "Krema",
+            "Kırmızı Kapya Biber",
+            "Çarliston Biber",
+            "soğan",
+            "Sarımsak",
+            "Pulbiber",
+            "Karabiber",
+            "Tuz",
+            "Sıvıyağ"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Mücver": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Kabak",
+            "Karnabahar",
+            "Brokoli",
+            "Havuç",
+            "Patates",
+            "Yoğurt",
+            "Tuz",
+            "Karabiber",
+            "Pulbiber",
+            "Sıvıyağ",
+            "Un",
+            "Maydanoz",
+            "Dereotu"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Orman Kebabı": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Patates",
+            "Bezelye",
+            "Havuç",
+            "Sıvıyağ",
+            "Tuz",
+            "Karabiber",
+            "Kekik",
+            "soğan",
+            "Sarımsak",
+            "Un",
+            "Domates",
+            "Çarliston Biber",
+            "Defne Yaprağı"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Zy.Mantar": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Mantar",
+            "Domates",
+            "Zeytinyağı",
+            "soğan",
+            "Tuz",
+            "Maydanoz",
+            "Şeker"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Arpa Şehriyeli Pirinç Pilavı": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Arpa Şehriye",
+            "Pirinç",
+            "Sıvıyağ",
+            "Tuz"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Lokma Tatlısı": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Un",
+            "Su",
+            "Yaş Maya",
+            "Pudra Şekeri",
+            "Tuz",
+            "Yumurta",
+            "Şeker",
+            "Limon Suyu",
+            "Su (Şerbet için)"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Patlıcan Musakka": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Soğan",
+            "Çarliston Biber",
+            "Sıvıyağ",
+            "Salça",
+            "Maydanoz",
+            "Tuz",
+            "Karabiber",
+            "Patlıcan",
+            "Domates"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Etsiz Karışık Musakka": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Alaca Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Aşurelik Buğday",
+            "Nohut",
+            "Salça",
+            "Un",
+            "Tuz",
+            "Sıvıyağ",
+            "Karabiber",
+            "Pulbiber"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Sebzeli Hasanpaşa Köfte": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Vişne Soslu Muhallebi": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Kola": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Et Döner": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Kuzu Boşluk",
+            "Tuz",
+            "Karabiber",
+            "Yumurta",
+            "Süt",
+            "soğan",
+            "Sarımsak",
+            "Garnitür Gramajı:",
+            "(Patates. Domates. Biber)"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Soslu Spagetti": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Spagetti Makarna",
+            "Salça",
+            "Domates",
+            "Tuz",
+            "Karabiber 0"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Mercimek Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Kırmızı Mercimek",
+            "Un",
+            "soğan",
+            "Tuz",
+            "Karabiber",
+            "Ayçiçek Yağı"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Yoğurt": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Zerde Tatlısı": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Köylü Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Yeşil Mercimek",
+            "Erişte",
+            "Sıvıyağ",
+            "Salça",
+            "Nane",
+            "Pulbiber",
+            "Un",
+            "Tuz"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Mantarlı Tavuk Sote": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Tavuk Göğüs Fleto",
+            "Patates",
+            "Mantar",
+            "Soğan",
+            "Maydanoz",
+            "Çarliston Biber",
+            "Domates",
+            "Sarımsak",
+            "Salça",
+            "Sıvıyağ",
+            "Tuz",
+            "Pulbiber",
+            "Karabiber"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Mantar Sote": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Patates",
+            "Mantar",
+            "Soğan",
+            "Maydanoz",
+            "Çarliston Biber",
+            "Domates",
+            "Sarımsak",
+            "Salça",
+            "Sıvıyağ",
+            "Tuz",
+            "Pulbiber",
+            "Karabiber"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Gül Böreği": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Yufka",
+            "Süt",
+            "Yoğurt",
+            "yumurta",
+            "Sıvıyağ",
+            "Tuz",
+            "Patates",
+            "Soğan",
+            "maydanoz",
+            "Karabiber 1"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Sütlaç": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Süt",
+            "Şeker",
+            "Pirinç",
+            "Mısır Nişastası"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Cennet Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Patates",
+            "Havuç",
+            "Tavuk Eti",
+            "Maydanoz",
+            "Pulbiber",
+            "Karabiber",
+            "Un",
+            "Sıvıyağ"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Bahçıvan Kebabı": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Domates",
+            "Sivri Biber",
+            "Sıvıyağ",
+            "Salça",
+            "Arpacık soğan",
+            "Maydanoz",
+            "Dereotu",
+            "Patates",
+            "Bezelye",
+            "Havuç",
+            "Kereviz",
+            "Tuz",
+            "Karabiber",
+            "Patlıcan"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Kıymalı Patates Oturtma": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Patates",
+            "Dana Eti",
+            "Soğan",
+            "Çarliston Biber",
+            "Maydanoz",
+            "Sıvıyağ",
+            "Salça",
+            "Tuz"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Patates Oturtma": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Patates",
+            "Soğan",
+            "Domates",
+            "Çarliston Biber",
+            "Sıvıyağ",
+            "Tuz",
+            "Pulbiber",
+            "Karabiber",
+            "maydanoz"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Toyga Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Nohut",
+            "Aşurelik Buğday",
+            "Yoğurt",
+            "Nane",
+            "Tuz",
+            "Un",
+            "Ayçiçek Yağı"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Sulu Köfte": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Soğan",
+            "Salça",
+            "Patates",
+            "Sıvıyağ",
+            "Ekmek",
+            "Tuz",
+            "Kimyon",
+            "Karabiber",
+            "Pulbiber",
+            "Un",
+            "Maydanoz",
+            "Sarımsak",
+            "Çarliston Biber",
+            "Domates"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Bezelye Yemeği": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Bezelye",
+            "Patates",
+            "Havuç",
+            "Kuru Soğan",
+            "Sıvıyağ",
+            "Domates",
+            "Tuz",
+            "Karabiber"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Kadayıflı Muhallebi": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Süt",
+            "Şeker",
+            "Vanilya",
+            "Margarin",
+            "Kadayıf",
+            "Pirinç Unu",
+            "Nişasta"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Alinazik Kebabı": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Yoğurt",
+            "Patlıcan",
+            "Dana Eti",
+            "soğan",
+            "Domates",
+            "Çarliston Biber",
+            "Sıvıyağ",
+            "Tuz",
+            "Salça"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Şakşuka": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Patlıcan",
+            "Biber",
+            "Kabak",
+            "Domates",
+            "Zeytinyağı",
+            "Soğan",
+            "Sarımsak",
+            "Tuz",
+            "Sirke",
+            "Salça",
+            "Toz Şeker",
+            "Sıvıyağ"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Etli Kuru Fasulye": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Kuru Fasulye",
+            "soğan",
+            "Domates",
+            "Çarliston Biber",
+            "Sıvıyağ",
+            "Salça",
+            "Tuz"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Kuru Fasulye": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Meksika Soslu Köfte": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Nohutlu Kabak": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "İçindeki Malzemeler: (Çiğ )",
+            "Kabak",
+            "Nohut",
+            "Salça",
+            "Domates",
+            "Dereotu",
+            "Soğan",
+            "Nane",
+            "Yağ",
+            "Un"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Ispanak Borani": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Kıymalı Yeşil Mercimek": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Kıyma",
+            "Yeşil Mercimek",
+            "Ayçiçek Yağı",
+            "Salça",
+            "soğan",
+            "Tuz"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Yeşil Mercimek Yemeği": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Fırın Makarna": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Makarna",
+            "Un",
+            "Süt",
+            "Sıvıyağ",
+            "Tuz",
+            "Karabiber",
+            "Kaşar",
+            "Yumurta"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Çiğ köfte": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Bulgur",
+            "Biber Salçası",
+            "Salça",
+            "Soğan",
+            "İsot",
+            "Zeytinyağı",
+            "Sarımsak",
+            "Maydanoz",
+            "Nar Ekşisi",
+            "Limon",
+            "Göbek Marul",
+            "Tuz"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Şef'in Çorbası": {
+        "type": "Çorba",
+        "ingredients": [
+            "Tel Şehriye",
+            "Yoğurt",
+            "Yumurta adet",
+            "Limon",
+            "Tuz",
+            "Nane",
+            "Pulbiber"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "undefined": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Maydanozlu Şehriye Çorbası": {
+        "type": "Çorba",
+        "ingredients": [
+            "Domates",
+            "Tel Şehriye",
+            "Maydanoz",
+            "Tuz",
+            "Sıvıyağ",
+            "Çarliston Biber",
+            "Karabiber",
+            "Limon"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Patlıcan Oturtma": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Patlıcan",
+            "Sıvıyağ",
+            "Dana Eti",
+            "Tuz",
+            "Domates",
+            "Çarliston Biber",
+            "Maydanoz",
+            "Salça",
+            "Kuru Soğan",
+            "Karabiber 0"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Patlıcan Yemeği": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Soğan",
+            "Çarliston Biber",
+            "Sıvıyağ",
+            "Salça",
+            "Maydanoz",
+            "Tuz",
+            "Karabiber",
+            "Patlıcan",
+            "Domates"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Spagetti": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Havuç Tarator": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Havuç",
+            "Yoğurt",
+            "Mayonez",
+            "Sıvıyağ",
+            "Dereotu",
+            "Tuz"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Meyveli Soda": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Adana Köfte": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "soğan",
+            "Yumurta",
+            "Sıvıyağ",
+            "Maydanoz",
+            "Kimyon",
+            "Kırmızı Toz",
+            "Domates",
+            "Sivri Biber"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Nohutlu Brüksel Lahana": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Mantar Soslu Makarna": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Mantar",
+            "Çarliston Biber",
+            "Kırmızı Kapya Biber",
+            "Makarna",
+            "Domates",
+            "Salça",
+            "Sıvıyağ",
+            "Maydanoz",
+            "Tuz",
+            "Karabiber"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Mercimek Köfte": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Köftelik Bulgur",
+            "Kırmızı Mercimek",
+            "Biber Salçası",
+            "Domates Salçası",
+            "Yeşil Soğan",
+            "Limon",
+            "Zeytinyağı",
+            "Çarliston Biber",
+            "Maydanoz",
+            "Karabiber",
+            "Pulbiber"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Kibrit Kebabı": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Patates",
+            "soğan",
+            "Çarliston Biber",
+            "Sarımsak",
+            "Yoğurt",
+            "Domates",
+            "Salça",
+            "Tuz",
+            "Sıvıyağ",
+            "Pulbiber",
+            "Karabiber"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Zy.Barbunya": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Barbunya",
+            "Zeytinyağı",
+            "Havuç",
+            "Patates",
+            "Soğan",
+            "Salça",
+            "Sarımsak",
+            "Tuz",
+            "Toz Şeker",
+            "Limon",
+            "Maydanoz"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Fanta": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Krutonlu Domates Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Domates",
+            "Salça",
+            "Sıvıyağ",
+            "Tuz",
+            "Un"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Kıymalı Ispanak": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Ispanak",
+            "Yoğurt",
+            "Sıvıyağ",
+            "Karabiber",
+            "soğan",
+            "Tuz",
+            "Pirinç",
+            "Dana Eti"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Ispanak Yemeği": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Ispanak",
+            "Yoğurt",
+            "Sıvıyağ",
+            "Karabiber",
+            "soğan",
+            "Tuz",
+            "Pirinç"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Bolonez Soslu Makarna": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Makarna",
+            "Dana Eti",
+            "Çarliston Biber",
+            "Domates",
+            "Salça",
+            "Tuz",
+            "Karabiber",
+            "Soğan",
+            "Sarımsak"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Kafkas Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Beyaz Lahana",
+            "Havuç",
+            "Arpa Şehriye",
+            "soğan",
+            "Sıvıyağ",
+            "Un",
+            "Maydanoz"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Kabak Beğendi": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Humus": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Nohut",
+            "Tahin",
+            "Limon",
+            "Kimyon",
+            "Tuz",
+            "Zeytinyağı"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Vitamin Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Kırmızı Mercimek",
+            "Patates",
+            "Havuç",
+            "Pirinç",
+            "Çarliston Biber",
+            "soğan",
+            "Dereotu",
+            "Nane",
+            "Sıvıyağ",
+            "Tuz",
+            "Un"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Nugget + Patates": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Kuskus": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Kuskus",
+            "Salça",
+            "Tuz",
+            "Pulbiber",
+            "Domates",
+            "Çarliston Biber",
+            "maydanoz"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Çilek": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Ekşili Köfte": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Kıyma",
+            "Pirinç",
+            "soğan",
+            "Maydanoz",
+            "Tuz",
+            "Karabiber",
+            "Dereotu",
+            "Sıvıyağ",
+            "Un",
+            "Yumurta",
+            "Limon",
+            "Yoğurt",
+            "Patates",
+            "Havuç"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Meyhane Pilavı": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Bulgur",
+            "Sıvıyağ",
+            "Domates",
+            "Biber",
+            "Soğan",
+            "Maydanoz",
+            "Karabiber",
+            "Pulbiber",
+            "Tuz",
+            "Salça"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Supangle": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Süt",
+            "Kakao",
+            "Margarin",
+            "Nişasta",
+            "Vanilya",
+            "Şeker"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Tutmaç Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Nohut",
+            "Yeşil Mercimek",
+            "Yoğurt",
+            "Yumurta 1.1",
+            "Erişte",
+            "Un",
+            "Sıvıyağ",
+            "Pulbiber",
+            "Tuz"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Şafak Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Salça",
+            "Domates",
+            "Süt",
+            "Tuz",
+            "Karabiber",
+            "Un",
+            "Sıvıyağ",
+            "Yıldız Şehriye"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Tavuklu Mantar Sote": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Tavuk Eti",
+            "Mantar",
+            "Salça",
+            "Domates",
+            "Çarliston Biber",
+            "Kuru Soğan",
+            "Patates",
+            "Tuz",
+            "Karabiber 0",
+            "Pulbiber 0"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Sebze Yemeği": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Kuru Soğan",
+            "Domates",
+            "Patates",
+            "Salça",
+            "Tuz",
+            "Patlıcan",
+            "Kabak",
+            "Çarliston Biber",
+            "Havuç",
+            "Pulbiber",
+            "Karabiber",
+            "Sıvıyağ",
+            "Bezelye"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Taze Fasulye": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Taze Fasulye",
+            "soğan",
+            "Salça",
+            "Domates",
+            "Pulbiber",
+            "Sıvıyağ",
+            "Tuz",
+            "Çarliston Biber"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Kök Kanat": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Dövmeç": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Köri Soslu Makarna": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Makarna",
+            "Krema",
+            "Sıvıyağ",
+            "Köri",
+            "Tuz",
+            "Karabiber"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Sucuklu Kuru Fasulye": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Sebzeli Bulgur Pilavı": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Bulgur",
+            "Sıvıyağ",
+            "Tuz",
+            "Bezelye",
+            "Havuç"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Tas Kebabı": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "soğan",
+            "Sıvıyağ",
+            "Tuz",
+            "Karabiber",
+            "Un",
+            "Salça",
+            "Domates",
+            "Çarliston Biber"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Zy.Enginar": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Enginar",
+            "Havuç",
+            "Bezelye",
+            "Patates",
+            "soğan",
+            "Limon",
+            "Dereotu",
+            "Tuz",
+            "Toz Şeker"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Köri Soslu Tavuk Sote": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Tavuk Eti",
+            "Patates",
+            "soğan",
+            "Çarliston Biber",
+            "Köri",
+            "Sıvıyağ",
+            "Tuz",
+            "Un",
+            "Sarımsak"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Etli Türlü": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Patates",
+            "Havuç",
+            "Kabak",
+            "Domates",
+            "Patlıcan",
+            "Taze Fasulye",
+            "Sıvıyağ",
+            "soğan",
+            "Sarımsak",
+            "Salça",
+            "Tuz"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Sebze Türlü": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "soğan",
+            "Domates",
+            "Patates",
+            "Salça",
+            "Tuz",
+            "Patlıcan",
+            "Kabak",
+            "Çarliston Biber",
+            "Havuç",
+            "Pulbiber",
+            "Karabiber",
+            "Sıvıyağ",
+            "Bezelye"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Yeşil Mercimek": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Yeşil Mercimek",
+            "Ayçiçek Yağı",
+            "Salça",
+            "soğan",
+            "Tuz"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "İzmir Köfte": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti Kıyma",
+            "Yumurta 0.1",
+            "Maydanoz",
+            "Tuz",
+            "soğan",
+            "Ekmek",
+            "Ayçiçek Yağı",
+            "Patates",
+            "Domates",
+            "Çarliston",
+            "Kimyon",
+            "Un",
+            "."
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Elbasan Tava": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Patates",
+            "Yumurta 0.01",
+            "Süt",
+            "Kaşar",
+            "Un",
+            "soğan",
+            "Salça",
+            "Sıvıyağ",
+            "Çarliston Biber",
+            "Sarımsak",
+            "Karabiber",
+            "Pulbiber",
+            "Tuz"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Sebzeli Patates Oturtma": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Mercimekli Bulgur Pilavı": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Yeşil Mercimek",
+            "Bulgur",
+            "Çarliston Biber",
+            "Sıvıyağ",
+            "Salça",
+            "Tuz",
+            "Karabiber",
+            "Pulbiber",
+            "Domates",
+            "Soğan"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Piyaz": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Kuru Fasulye",
+            "Limon",
+            "Zeytinyağı",
+            "soğan",
+            "maydanoz",
+            "Yumurta",
+            "Göbek Marul",
+            "Siyah Zeytin",
+            "Tuz"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Soslu Mitite Köfte": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Yumurta",
+            "Maydanoz",
+            "Pulbiber",
+            "Karabiber",
+            "Kimyon",
+            "Salça",
+            "soğan",
+            "Sıvıyağ",
+            "Domates",
+            "Çarliston Biber",
+            "Patates",
+            "Sarımsak",
+            "Ekmek"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Coleslaw Salata": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Beyaz Lahana",
+            "Mayonez",
+            "Mısır",
+            "Yoğurt",
+            "Havuç"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Sebze Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Un",
+            "Domates",
+            "Sıvıyağ",
+            "Bezelye",
+            "soğan",
+            "Maydanoz",
+            "Havuç",
+            "Dereotu",
+            "Patates",
+            "Kereviz Yaprağı",
+            "Kabak",
+            "Sarımsak",
+            "Taze Fasulye",
+            "Tuz",
+            "Ispanak",
+            "Pırasa",
+            "Beyaz Lahana",
+            "Süt"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Tavuk Döner": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Tavuk Eti",
+            "Kırmızı Toz Biber",
+            "Salça",
+            "Pulbiber",
+            "Patates",
+            "Sıvıyağ",
+            "Tuz",
+            "Sarımsak"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Cevizli Kadayıf": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Kadayıf",
+            "Sıvıyağ",
+            "Şeker",
+            "Ceviz",
+            "Su",
+            "Limon"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Mor Dünya": {
+        "type": "Seçmeliler",
+        "ingredients": [
+            "Kırmızı Lahana",
+            "Yoğurt",
+            "Mayonez",
+            "Tuz",
+            "Sarımsak"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Spagetti Makarna": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Püreli Davutpaşa Köfte": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Ekmek",
+            "Sıvıyağ",
+            "Pulbiber",
+            "soğan",
+            "Yumurta",
+            "Süt",
+            "Patates",
+            "Kimyon",
+            "Salça",
+            "Sarımsak",
+            "Tuz",
+            "Maydanoz"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Peynirli Makarna": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Makarna 50",
+            "Beyaz Peynir",
+            "Maydanoz",
+            "Sıvıyağ",
+            "Tuz",
+            "Karabiber"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Şifa Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Patates",
+            "Havuç",
+            "Kereviz",
+            "Bezelye",
+            "Soğan",
+            "Pirinç",
+            "Tuz",
+            "Maydanoz",
+            "Karabiber",
+            "Pulbiber"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Şehriyeli Pirinç Pilavı": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Pirinç",
+            "Tuz",
+            "Ayçiçek",
+            "Şehriye 5 Gr."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Gendime Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Tarhana Çorba": {
+        "type": "Çorba",
+        "ingredients": [
+            "Yoğurt",
+            "Sıvıyağ",
+            "Salça",
+            "Nohut",
+            "Domates",
+            "Kapya Biber",
+            "Kuru Soğan",
+            "Un",
+            "Maydanoz",
+            "Nane"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Beef Navarin": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Eti",
+            "Havuç",
+            "Bezelye",
+            "Kuru Soğan",
+            "Tuz",
+            "Kimyon 0",
+            "Çarliston Biber",
+            "Kırmızı Kapi Biber",
+            "Karabiber 0",
+            "Pulbiber 0",
+            "Patates"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Etli Mantı": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Mantı",
+            "Yoğurt",
+            "Sıvıyağ",
+            "Toz Biber",
+            "Pulbiber",
+            "Nane",
+            "Tuz"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": false,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Vejeteryan Mantı": {
+        "type": "Vegan Yemek",
+        "ingredients": [
+            "Bileşen bilgisi bulunamadı."
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Karışık Kızartma": {
+        "type": "Yan Yemek",
+        "ingredients": [
+            "Biber",
+            "Patlıcan",
+            "Ayçiçek Yağı",
+            "Tuz",
+            "Yoğurt"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    },
+    "Fırın Köfte": {
+        "type": "Ana Yemek",
+        "ingredients": [
+            "Dana Kıyma",
+            "soğan",
+            "Ekmek",
+            "Maydanoz",
+            "Sıvıyağ",
+            "Tuz",
+            "Karabiber",
+            "Kimyon",
+            "Yumurta",
+            "Püre Gramajı (",
+            "Patates",
+            "Süt",
+            "Kaşar",
+            "Tuz"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "gluten_free": true,
+        "total_score": 0,
+        "total_rated": 0
+    }
+}
