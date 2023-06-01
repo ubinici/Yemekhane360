@@ -281,7 +281,7 @@ class Bot:
                 campus_name = campus_entity['value']
 
                 # Define a dictionary mapping campus names to URLs
-                campus_urls = {
+                CAMPUS_URLS = {
                     'Kuzey': 'https://yemekhane.boun.edu.tr/yemekhaneler/kuzey-kampus-yemekhanesi',
                     'Güney': 'https://yemekhane.boun.edu.tr/yemekhaneler/guney-kampus-yemekhanesi',
                     'Kilyos': 'https://yemekhane.boun.edu.tr/yemekhaneler/saritepe-kampusu-yemekhanesi',
@@ -289,10 +289,10 @@ class Bot:
                     'Hisar': 'https://yemekhane.boun.edu.tr/yemekhaneler/hisar-kampusu-yemekhanesi'
                 }
 
-                # Check if the campus name exists in the campus_urls dictionary
-                if campus_name in campus_urls:
+                # Check if the campus name exists in the CAMPUS_URLS dictionary
+                if campus_name in CAMPUS_URLS:
                     # Get the URL for the campus
-                    campus_url = campus_urls[campus_name]
+                    campus_url = CAMPUS_URLS[campus_name]
 
                     # Return the URL for the campus
                     return {"text": f"{campus_name.capitalize()} Kampüs yemekhanesi hakkında detaylı bilgiye buradan erişebilirsiniz: {campus_url}"}
@@ -335,9 +335,7 @@ bot = Bot('RUVCQ222IJJWFZ72SAJXV7DX4GXCYVVX')
 
 while True:
     user_input = input("Sormak istediğiniz bir şey var mı: ")
-    
-    
-    onse = bot.handle_message(user_input)
+    response = bot.handle_message(user_input)
     if response == "exit":
         print("Pekala, görüşmek üzere!")
         break
