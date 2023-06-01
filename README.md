@@ -8,7 +8,7 @@ The primary task or problem this project intends to solve is to scrape meal data
 ## Contributors
 This project is developed by:
 - **Ümit Altar Binici**: Lead Developer and Data Processing
-- **Ardıl Acar**: Data Scraping and Management
+- **Ardıl Acar**: Data Scraping, Dietary Considerations, Polling
 - **Ömer Çağlayan**: Bot Interaction Design
 
 ## Project Structure
@@ -17,6 +17,7 @@ The project consists of three main Python scripts:
 1. `preprocessing.py`
 2. `chatbot.py`
 3. `foodlist.py`
+4. `anket.py`
 
 Each script performs a specific function and should be executed in the specified order (1-3-2).
 
@@ -38,7 +39,7 @@ $ python chatbot.py --token YOUR_WIT_AI_TOKEN
 Replace `YOUR_WIT_AI_TOKEN` with your actual wit.ai token. The script uses a pre-trained wit.ai application by default.
 
 ### foodlist.py
-This script processes the 'menu.json' file created by the `preprocessing.py` script. It generates a `foodlist.json` file that contains detailed information about each food item, including type, ingredients, dietary considerations, and user ratings.
+This script processes the 'menu.json' file created by the `preprocessing.py` script. It generates a `foodlist.json` file that contains detailed information about each food item, including type, ingredients, dietary considerations, and user ratings. 
 
 To run the foodlist script:
 
@@ -47,6 +48,18 @@ $ python foodlist.py
 ```
 
 Note: This script should be executed after `preprocessing.py` and before `chatbot.py`.
+
+### anket.py
+This script provides the backbone of the user polling function to ask the user for the ratings of a randomly selected meal. Additionally, some of the meals do not have any ingredient listing under the school website, and this script will ask the user whether such a meal is vegan, vegetarian or gluten-free. The ratings are not yet implemented into the main application, but will be done so in a future release.
+
+To run the foodlist script:
+
+```shell
+$ python anket.py
+```
+
+Note: This script should be executed after `preprocessing.py`.
+
 
 ## Dependencies
 The application requires Python 3.6 or later and the following Python packages:
@@ -57,6 +70,7 @@ The application requires Python 3.6 or later and the following Python packages:
 4. `json`
 5. `datetime`
 6. `re`
+7. `random`
 
 To install the necessary packages:
 
