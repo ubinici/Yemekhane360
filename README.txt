@@ -10,7 +10,7 @@ for intent classification.
 Scripts:
 ==========================================================
 
-There are two main scripts in this application:
+There are three main scripts in this application:
 
 1. preprocessing.py
 2. chatbot.py
