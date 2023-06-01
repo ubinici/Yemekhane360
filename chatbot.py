@@ -5,6 +5,7 @@ import json
 class Bot:
     """Bot class for interacting with wit.ai and handling different user intents"""
     def __init__(self, token):
+        """Initialize the bot with a Wit.ai access token"""
         self.client = Wit(token)
         self.handlers = {
             'getMenu': self.handle_get_menu,
@@ -16,6 +17,7 @@ class Bot:
 
 
     def get_meal_time(self):
+        """Return the current meal time based on the current time of the day"""
         current_time = datetime.now().time()
 
         if time(7, 30) <= current_time <= time(9, 30):
@@ -29,9 +31,13 @@ class Bot:
 
 
     def handle_get_meal_times_for_campus(self, entities, context):
+        """Handle the 'getMealTimesForCampus' intent by returning the meal times for a specific campus"""
+        # Check if the campus name was provided in the entities
         if 'campus:campus' not in entities or 'value' not in entities['campus:campus'][0]:
+            # If not, return an error message
             return {"text": "Kampüs bilgisi eksik veya hatalı. Lütfen tekrar deneyin."}
 
+        # Define each campus with meal times for both weekdays and weekend
         CAMPUS_TIMES = {
                     'Kuzey': {
                         'Haftaiçi': {
@@ -95,15 +101,22 @@ class Bot:
                     },
                 }
         
+        # Extract the campus name from the entities
         campus_name = entities['campus:campus'][0]['value']
+        # Get the meal times for the specified campus
         campus_meal_times = CAMPUS_TIMES.get(campus_name)
 
+        # If the campus name is not found in the CAMPUS_TIMES dictionary, return an error message
         if not campus_meal_times:
             return {"text": f"Kampüs bilgisi hatalı: {campus_name}. Lütfen tekrar deneyin."}
 
+        # Prepare a response text
         response = f"{campus_name} kampüsü yemek saatleri:\n"
+        # Iterate over the weekday/weekend categories, add the category name to the response
         for day_type, meals in campus_meal_times.items():
             response += f"\n{day_type.capitalize()}:\n"
+            # Iterate over the meals in the category
+            # Depending on whether the meals are served for that time frame, prepare the response accordingly
             for meal, times in meals.items():
                 if times is None:
                     response += f"- {meal.capitalize()}: Bu öğün için yemek hizmeti verilmemektedir.\n"
@@ -113,17 +126,22 @@ class Bot:
 
 
     def handle_get_menu(self, entities=None, context=None):
+        """Handle the 'getMenu' intent by returning the current or next day's meal menu"""
+        
+        # Open the menu data file
         with open('menu.json', 'r', encoding='utf-8') as f:
             menu = json.load(f)
-
+        
+        # Get the current date and time, format it as 'dd mm'
         current_time = datetime.now()
         current_date = current_time.strftime('%d %m')
-
         meal_time = self.get_meal_time()
 
+        # If the current time is outside of meal times, get the menu for the next day
         if meal_time is None:
-            # If the current time is outside of meal times, get the menu for the next day
+            # Calculate the date of the next day
             next_day = (current_time + timedelta(days=1)).strftime('%d %m')
+            # If the menu for the next day is available, prepare the menu for the next day
             if next_day in menu:
                 meal_menu = menu[next_day]
                 menu_str = f"{next_day} Menüsü:\n"
@@ -136,15 +154,17 @@ class Bot:
                 return {"text": menu_str}
             else:
                 return {"text": "Yarının menüsü mevcut değil."}
-
+        
+        # If the menu for the current date is not available, return an error message
         if current_date not in menu:
             return {"text": "Bugünün menüsü mevcut değil."}
 
+        # If the menu for the current meal time is not available, return an error message
         if meal_time not in menu[current_date]:
             return {"text": f"{meal_time.capitalize()} menüsü mevcut değil."}
 
+        # Prepare the string of the menu for the current meal time
         meal_menu = menu[current_date][meal_time]
-
         menu_str = f"{current_date} {meal_time.capitalize()} Menüsü:\n"
         for category, items in meal_menu.items():
             menu_str += f"\n{category.capitalize()}:\n"
@@ -154,6 +174,9 @@ class Bot:
 
 
     def handle_query_meal(self, entities, context):
+        """Handle the 'queryMeal' intent by searching for a specific meal in the menu data"""
+        
+        # Extract the meal name from the entities, or set it to None if not provided
         meal_name = next(
             (
                 entity[0]['value']
@@ -162,27 +185,36 @@ class Bot:
             ),
             None,
         )
+        
+        # If no meal name was provided, return an error message
         if meal_name is None:
             return {"text": "Yemek ismi belirtmediniz."}
 
+        # Open the menu data file
         with open('menu.json', 'r', encoding='utf-8') as f:
             menu = json.load(f)
 
-        # Get today's date
+        # Get the current date, format it as 'dd mm'
+        # Create a sorted list of the dates in the menu
         today = datetime.now().strftime('%d %m')
-
-        # Sort the dates in ascending order
         sorted_dates = sorted(menu.keys())
 
+        # Loop through each date in the sorted dates
         for date in sorted_dates:
-            # Skip past dates
+            # Skip dates that are before today
             if date < today:
                 continue
 
+            # Get the meals for the current date
             meals = menu[date]
+            
+            # Loop through each meal time (e.g., breakfast, lunch, dinner)
             for meal_time, meal_items in meals.items():
+                # Loop through each category of items (e.g., main, sides, dessert)
                 for category, items in meal_items.items():
+                    # Loop through each item in the category
                     for item in items:
+                        # If the item's name matches the queried meal name
                         if item['name'] == meal_name:
                             return {"text": f"{meal_name}, {date} tarihinde {meal_time} menüsünde sunulacak."}
 
@@ -190,6 +222,8 @@ class Bot:
 
 
     def handle_get_menu_for_date(self, entities, context):
+        """Handle the 'getMenuForDate' intent by returning the meal menu for a specific date"""
+        
         # Check if the 'datetime' entity exists in the entities dictionary
         if 'wit$datetime:datetime' in entities:
             # Get the first 'datetime' entity
@@ -234,6 +268,8 @@ class Bot:
 
 
     def handle_get_location(self, entities, context):
+        """Handle the 'getLocation' intent by returning the URL of a specific campus"""
+        
         # Check if the 'campus' entity exists in the entities dictionary
         if 'campus:campus' in entities:
             # Get the first 'campus' entity
@@ -266,27 +302,42 @@ class Bot:
 
 
     def handle_message(self, message):
+        """Handle an incoming message by passing it to Wit.ai and executing the appropriate intent handler"""
         try:
-            resp = self.client.message(message)
-            intent = resp['intents'][0]['name'] if resp['intents'] else None
-            entities = resp['entities']
+            # Pass the message to Wit.ai and receive the response
+            reply = self.client.message(message)
+            
+            # Get the intent name from the response, if there is any
+            intent = reply['intents'][0]['name'] if reply['intents'] else None
+            
+            # Get the entities from the response
+            entities = reply['entities']
                 
+            # If the intent is "killProcess", return "exit" to stop the bot
             if intent == "killProcess":
                 return "exit"
 
+            # If there is a handler for the intent
             if intent in self.handlers:
+                # Call the handler and get its response
                 handler_response = self.handlers[intent](entities, {})
+                
+                # Return the text from the handler's response
                 return handler_response["text"]
             else:
+                # If there is no handler for the intent, return a default error message
                 return "Anladığım bir komut değil."
         except Exception as e:
+            # If an error occurred, return a message with the error
             return f"Bir hata oluştu: {str(e)}"
 
 bot = Bot('RUVCQ222IJJWFZ72SAJXV7DX4GXCYVVX')
 
 while True:
     user_input = input("Sormak istediğiniz bir şey var mı: ")
-    response = bot.handle_message(user_input)
+    
+    
+    onse = bot.handle_message(user_input)
     if response == "exit":
         print("Pekala, görüşmek üzere!")
         break
