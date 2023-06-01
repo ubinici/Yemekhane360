@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import re
 
 response = requests.get("https://yemekhane.boun.edu.tr/aylik-menu/2023-06")
 soup = BeautifulSoup(response.text, 'html.parser')
@@ -11,20 +12,31 @@ def get_ingredients(url):
     try:
         response = requests.get(url)
     except requests.exceptions.RequestException as e:
-        print(f"Bileşen bilgisi bulunamadı: {e}")
-        return ["Bileşen bilgisi bulunamadı"]
+        print(f"Bir hata oluştu: {e}")
+        return ["Bileşen bilgisi bulunamadı."]
 
     soup = BeautifulSoup(response.text, 'html.parser')
 
     ingredients_section = soup.find('div', class_='field-name-field-i-indekiler2')
     if ingredients_section is not None:
-        ingredient_divs = ingredients_section.find_all('div', class_='field-item')
-        ingredients = [div.text.strip() for div in ingredient_divs]
-        ingredients = [i for i in ingredients if i and i != 'İçindeki Malzemeler (Çiğ )']
+        return format_ingredients(ingredients_section)
     else:
-        ingredients = ["Bileşen bilgisi bulunamadı"]
+        return ["Bileşen bilgisi bulunamadı."]
 
-    return ingredients
+
+# TODO Rename this here and in `get_ingredients`
+def format_ingredients(ingredients_section):
+    ingredient_divs = ingredients_section.find_all('div', class_='field-item')
+    ingredients = [div.text.strip() for div in ingredient_divs]
+    pattern = re.compile('İçindeki\\s*Malzemeler\\s*\\(\\s*Çiğ\\s*\\)')
+    pattern2 = re.compile('\d*\s*gr.?|\d*\.\d*\s*g\s*r.?|\\s*\\d/\\d*|demet|dmt')
+    result = []
+    for i in ingredients:
+        i = re.sub(pattern, "", i)
+        if i := re.sub(pattern2, "", i):
+            result.append(i.strip())
+
+    return result
 
 
 for day in days:
