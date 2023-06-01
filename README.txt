@@ -72,6 +72,7 @@ application:
 3. wit
 4. json
 5. datetime
+6. re
 
 You can install these packages using pip:
 
