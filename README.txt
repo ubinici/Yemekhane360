@@ -14,6 +14,7 @@ There are two main scripts in this application:
 
 1. preprocessing.py
 2. chatbot.py
+3. foodlist.py
 
 ==========================================================
 preprocessing.py
@@ -59,6 +60,42 @@ You can do this in the following way:
 $ python chatbot.py --token YOUR_WIT_AI_TOKEN
 
 Replace 'YOUR_WIT_AI_TOKEN' with your actual wit.ai token.
+
+==========================================================
+foodlist.py
+==========================================================
+
+This script processes the 'menu.json' file created by the 
+'preprocessing.py' script, and creates a 'foodlist.json' 
+file. This new file contains information about each food 
+item, including the type of food (e.g., main dish, soup, 
+side dish, etc.), the ingredients, whether the food is 
+vegan, vegetarian, or gluten-free, and a total score and 
+total rated count for user rating purposes.
+
+The vegan, vegetarian, and gluten-free statuses of each 
+food are determined based on certain keywords in the 
+ingredients. For example, if an ingredient contains a meat 
+keyword (e.g., "Dana", "Et", "Eti", "Kıyma", "Kuzu", 
+"Tavuk", "Fileto", "Balık"), then the food is not 
+considered vegetarian. Similarly, if an ingredient 
+contains a gluten keyword (e.g., "Pirinç", "Makarna", 
+"Erişte", "Kadayıf", "Şehriye", "Bulgur", "Kuskus", 
+"Mantı", "Yufka", "Un", "Makarna"), then the food is not 
+considered gluten-free.
+
+To run the foodbase script:
+
+$ python foodbase.py
+
+This will generate the 'foodlist.json' file with the 
+processed food data. 
+
+Dependencies: This script also requires the 'json' Python 
+package.
+
+Note: This script should be run after 'preprocessing.py' 
+and before 'chatbot.py'.
 
 ==========================================================
 Dependencies:
