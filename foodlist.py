@@ -4,7 +4,7 @@ def foodbase():
   with open('foodlist.json', 'r', encoding='utf-8') as f:
       foods = json.load(f)
   meat_keywords = ["Dana", "Et", "Eti", "Kıyma", "Kuzu", "Tavuk", "Fileto", "Balık", "But", "Bonfile", "Göğüs", "Pane", "Mezgit", "Ciğer"]
-  vegan_keywords = ["Yumurta", "Tereyağı", "Yoğurt", "Süt", "Dana", "Et", "Eti", "Kıyma", "Kuzu", "Tavuk", "Fileto", "Balık", "Peynir", "yumurta" "Krema", "Kaşar"]
+  vegan_keywords = ["Yumurta", "Tereyağı", "Yoğurt", "Süt", "Dana", "Et", "Eti", "Kıyma", "Kuzu", "Tavuk", "Fileto", "Balık", "But", "Bonfile", "Göğüs", "Pane", "Mezgit", "Ciğer", "Peynir", "yumurta" "Krema", "Kaşar"]
   gluten_keywords = ["Pirinç", "Makarna", "Erişte", "Kadayıf", "Şehriye", "Bulgur", "Kuskus", "Mantı", "Yufka", "Un", "Makarna", "Nişasta", "Mantı", "Ekmek", "Yufka", "Unu", "Galeta"]
   global listingredients
   listingredients = []
